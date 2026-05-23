@@ -1,0 +1,282 @@
+[
+  {
+    "subject": "Test Final",
+    "unit": "from_pdf",
+    "questions": [
+      {
+        "question": "En la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, encontramos que entre los principios del SNCFP está:",
+        "options": [
+          "A. La participación y cooperación de los agentes sociales con los poderes económicos en las políticas formativas y de cualificación profesional.",
+          "B. Evaluar y acreditar oficialmente la cualificación profesional cualquiera que hubiera sido la forma de su adquisición.",
+          "C. El acceso, en condiciones de igualdad de todos los ciudadanos, a las diferentes modalidades de la FP.",
+          "D. Promover una oferta formativa de calidad, actualizada y adecuada a los distintos destinatarios."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "El subsistema de Formación Profesional para el Empleo (FPE):",
+        "options": [
+          "A. Supone la separación organizativa y funcional del subsistema de FPR.",
+          "B. Comparte con el subsistema de FPR la organización modular y el CNCP como referencia.",
+          "C. Comparte con el subsistema de FPR las mismas iniciativas de formación.",
+          "D. Está destinado exclusivamente a trabajadores desempleados."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "La normativa que regula el subsector de la FPE:",
+        "options": [
+          "A. Es completamente distinta a la del subsector de la FP Reglada.",
+          "B. Comparte con la FP Reglada los principales reales decretos y órdenes que los desarrollan.",
+          "C. Es interpretable, cada entidad impartidora puede adaptarla a su funcionamiento.",
+          "D. Se regula mediante la publicación de leyes, leyes orgánicas, reales decretos y reales decreto-ley y se desarrolla a través de órdenes."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "El INCUAL es el organismo del SNCFP encargado de:",
+        "options": [
+          "A. La acreditación de las cualificaciones.",
+          "B. Definir, elaborar y mantener actualizado el CNCP y el correspondiente CMFP.",
+          "C. El desarrollo de la integración de las cualificaciones profesionales.",
+          "D. Definir, elaborar y mantener actualizado el CGFP y el correspondiente CMFP."
+        ],
+        "correctAnswer": "B. Definir, elaborar y mantener actualizado el CNCP y el correspondiente CMFP."
+      },
+      {
+        "question": "Entre las características de la programación didáctica encontramos que estás deben ser:",
+        "options": [
+          "A. Coherentes, contextualizadas y estáticas.",
+          "B. Integradoras, dinámicas e idealistas.",
+          "C. Contextualizadas, dinámicas y rígidas.",
+          "D. Contextualizadas, útiles y dinámicas."
+        ],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "subject": "Test Modulo 1",
+    "unit": "from_pdf",
+    "questions": [
+      {
+        "question": "¿En qué Ley orgánica se establece El Catálogo Nacional de Cualificaciones?",
+        "options": [
+          "A. Ley Orgánica de 3 de octubre.",
+          "B. Ley Orgánica de 15 de mayo.",
+          "C. Ley Orgánica de 19 de junio.",
+          "D. Ley Orgánica de 16 de abril."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "El agente encargado de la actualización del Catálogo Nacional de Cualificaciones es:",
+        "options": [
+          "A. El Instituto Nacional de Cualificaciones.",
+          "B. El Consejo General de la Formación Profesional.",
+          "C. La Administración.",
+          "D. Las Comunidades Autónomas."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "En el Catálogo Nacional de Cualificaciones se clasifican:",
+        "options": [
+          "A. 20 familias profesionales y 5 niveles.",
+          "B. 26 familias profesionales y 4 niveles.",
+          "C. 25 familias profesionales y 5 niveles.",
+          "D. 26 familias profesionales y 5 niveles."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Una competencia profesional es:",
+        "options": [
+          "A. Son el agregado mínimo de competencias.",
+          "B. Conjunto de conocimientos y capacidades que permiten el ejercicio de la actividad profesional.",
+          "C. Conjunto de competencias profesionales con significación para el empleo.",
+          "D. Aptitudes para el buen desempeño de una profesión."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "En los contratos para la formación y el aprendizaje, el tiempo de trabajo efectivo no podrá superar el ... durante el primer año.",
+        "options": [
+          "A. 85%.",
+          "B. 50%.",
+          "C. 70%.",
+          "D. 65%."
+        ],
+        "correctAnswer": "A. 85%."
+      }
+    ]
+  },
+  {
+    "subject": "Test Modulo 2",
+    "unit": "from_pdf",
+    "questions": [
+      {
+        "question": "Desde la oficialidad administrativa de la FPE el término más correcto es:",
+        "options": [
+          "A. Especialidad formativa.",
+          "B. Curso.",
+          "C. Acción formativa.",
+          "D. Formación."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "¿Qué colectivo no tiene prioridad en la formación de demanda?",
+        "options": [
+          "A. Los afectados y víctimas del terrorismo.",
+          "B. Las mujeres.",
+          "C. Las personas de baja cualificación.",
+          "D. Las personas mayores de 35 años."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "En la programación didáctica los objetivos de aprendizaje que aparecen, se extraen de:",
+        "options": [
+          "A. La unidad formativa.",
+          "B. La competencia general.",
+          "C. El certificado de profesionalidad.",
+          "D. La cualificación profesional."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Los certificados de profesionalidad:",
+        "options": [
+          "A. Tienen validez en el ámbito nacional e internacional.",
+          "B. Tienen que tener los módulos dictados por el CNCP.",
+          "C. Serán expedidos por el Ministerio de Formación y Empleo.",
+          "D. Con carácter excepcional pueden tener menos unidades."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Ventaja de la formación presencial:",
+        "options": [
+          "A. Mayor accesibilidad.",
+          "B. Reducción de costes.",
+          "C. Versatilidad metodológica.",
+          "D. Desarrollo de habilidades de autoaprendizaje."
+        ],
+        "correctAnswer": ""
+      }
+    ]
+  },
+  {
+    "subject": "Test Modulo 3",
+    "unit": "from_pdf",
+    "questions": [
+      {
+        "question": "Objetivos previstos en la programación de la formación:",
+        "options": [
+          "A. Objetivos de la Formación.",
+          "B. Objetivos de aprendizaje.",
+          "C. Objetivos competenciales.",
+          "D. Objetivos de la cualificación profesional."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Tiene un carácter eminentemente operativo y funcional para el docente en el sistema de Formación Profesional:",
+        "options": [
+          "A. Programación didáctica.",
+          "B. Programa formativo.",
+          "C. Programación formativa.",
+          "D. Programa pedagógico."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Permiten a los individuos adaptarse a un entorno laboral cambiante:",
+        "options": [
+          "A. Competencias técnicas.",
+          "B. Competencias transversales.",
+          "C. Competencias clave.",
+          "D. Competencias actitudinales."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "La programación didáctica de acciones formativas debe ser viva y cambiante, es decir:",
+        "options": [
+          "A. Dinámica.",
+          "B. Flexible.",
+          "C. Funcional.",
+          "D. Proactiva."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Dinámica que consiste en proporcionarle al alumnado una información real con la descripción de una situación determinada.",
+        "options": [
+          "A. Panel de expertos.",
+          "B. Debate estructurado.",
+          "C. Phillips 66.",
+          "D. Estudio de casos."
+        ],
+        "correctAnswer": "A. Panel de expertos."
+      }
+    ]
+  },
+  {
+    "subject": "Test Modulo 4",
+    "unit": "from_pdf",
+    "questions": [
+      {
+        "question": "La temporalización de una acción formativa debe ser:",
+        "options": [
+          "A. Improvisada y adecuada a las características del auditorio y del currículo.",
+          "B. Meticulosa y adecuada a las características del auditorio y del currículo.",
+          "C. General y cerrada al debate.",
+          "D. Extensa, cerrada al debate y meticulosa."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Principio por el que se incluyen contenidos que conciernen a la realidad:",
+        "options": [
+          "A. Validez.",
+          "B. Significación.",
+          "C. Adecuación.",
+          "D. Globalización."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "En una ficha tipo para la temporalización de una sesión formativa encontramos:",
+        "options": [
+          "A. Los objetivos, contenidos y actividades diarias de la acción formativa.",
+          "B. Los objetivos, contenidos y metodología diaria de la acción formativa.",
+          "C. Los objetivos, contenidos y metodología diaria de la sesión.",
+          "D. Los objetivos, contenidos y actividades diarias de la sesión."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "La temporalización diaria de la acción formativa:",
+        "options": [
+          "A. Supone el nivel de concreción curricular más preciso y permite tener control sobre lo que ya hemos hecho.",
+          "B. Supone el nivel de concreción curricular más genérico y permite tener control sobre lo que ya hemos hecho.",
+          "C. Supone el nivel de concreción curricular más genérico y permite tener planificado y preparado lo que queda por hacer.",
+          "D. Supone el nivel de concreción curricular más preciso y permite tener control sobre lo que queda por hacer."
+        ],
+        "correctAnswer": ""
+      },
+      {
+        "question": "Factores a tener en cuenta para realizar la temporalización son:",
+        "options": [
+          "A. El número de horas, los tiempos para imprevistos y el número de docentes.",
+          "B. Los tiempos para imprevistos, el número de horas y la importancia de cada contenido.",
+          "C. El número de horas, el número de contenidos y la importancia de los objetivos.",
+          "D. El número de horas, el número de contenidos y los honorarios del docente."
+        ],
+        "correctAnswer": ""
+      }
+    ]
+  }
+]
