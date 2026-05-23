@@ -16,7 +16,7 @@
   function showIntro(){el.innerHTML=`<div class="intro"><div class="intro-content"><div class="intro-icon">🎓</div><h1 class="gradient-text">Test Practica</h1><p>Practica los test de tu ciclo formativo</p><button class="intro-btn" onclick="App.startApp()">Comenzar</button></div></div>`}
   function startApp(){showLoader();loadData()}
   function showLoader(){el.innerHTML='<div class="loader"><div class="loader-inner"><div class="spinner"></div><p>Cargando preguntas...</p></div></div>'}
-  function loadData(){fetch('questions.json').then(r=>r.json()).then(d=>{Q=d;S.view='home';render()}).catch(()=>{el.innerHTML='<div class="loader"><div class="loader-inner"><p style="color:#fda4af">Error cargando preguntas</p><button class="btn btn-primary" onclick="App.startApp()" style="margin-top:12px">Reintentar</button></div></div>'})}
+  function loadData(){fetch('questions.json').then(r=>{if(!r.ok)throw new Error('no data');return r.json()}).then(d=>{Q=d;S.view='home';render()}).catch(()=>{el.innerHTML='<div class="loader"><div class="loader-inner"><p style="color:#fda4af">Error cargando preguntas</p><button class="btn btn-primary" onclick="App.startApp()" style="margin-top:12px">Reintentar</button></div></div>'})}
   function showModal(icon,title,text,confirmText,cancelText,onConfirm){modalCallback=onConfirm;el.insertAdjacentHTML('beforeend',`<div class="modal-overlay" onclick="App.closeModal(event)"><div class="modal" onclick="event.stopPropagation()"><div class="modal-icon">${icon}</div><h3>${title}</h3><p>${text}</p><div class="modal-btns"><button class="btn btn-ghost" onclick="App.closeModal()">${cancelText}</button><button class="btn btn-danger" onclick="App.confirmModal()">${confirmText}</button></div></div></div>`)}
   function closeModal(e){if(e&&e.target!==e.currentTarget)return;const m=document.querySelector('.modal-overlay');if(m)m.remove();modalCallback=null}
   function confirmModal(){if(modalCallback)modalCallback();closeModal()}
@@ -72,28 +72,28 @@
   function rQuiz(){
     const qa=S.errMode?S.errQ:S.shuf;
     if(!qa.length){S.view='home';render();return}
-    const q=qa[S.idx],tot=qa.length,cur=S.idx+1,pct=Math.round(cur/tot*100),ans=S.ans[S.idx]!==undefined,sel=S.ans[S.idx],ok=ans&&sel===q.correctAnswer,m=mt(S.sub),ul=S.errMode?'Repaso de errores':(UL[S.unit]||S.unit);
+    const q=qa[S.idx],tot=qa.length,cur=S.idx+1,pct=Math.round(cur/tot*100),ans=S.ans[S.idx]!==undefined,sel=S.ans[S.idx],hasKey=!!q.correctAnswer,ok=hasKey&&ans&&sel===q.correctAnswer,m=mt(S.sub),ul=S.errMode?'Repaso de errores':(UL[S.unit]||S.unit);
     el.innerHTML=`<div class="fade-in" style="min-height:100vh;display:flex;flex-direction:column"><div class="container" style="flex:1;display:flex;flex-direction:column">
       <div class="quiz-header"><button class="exit-btn" onclick="App.exitQuiz()">✕ Salir</button><div class="meta">${S.sub} · ${ul}</div><span class="counter">${cur}/${tot}</span></div>
       <div class="quiz-progress"><div class="progress-fill ${m.fill}" style="width:${pct}%"></div></div>
       <div class="glass quiz-body" style="flex:1"><h2>${q.question}</h2>
-        <div class="options">${q.options.map(opt=>{let c='option';if(ans){c+=' disabled';if(opt===q.correctAnswer)c+=' correct';else if(opt===sel&&opt!==q.correctAnswer)c+=' incorrect'}else if(sel===opt)c+=' selected';
+        <div class="options">${q.options.map(opt=>{let c='option';if(ans){c+=' disabled';if(hasKey){if(opt===q.correctAnswer)c+=' correct';else if(opt===sel&&opt!==q.correctAnswer)c+=' incorrect'}}else if(sel===opt)c+=' selected';
           return`<div class="${c}" onclick="App.answer('${esc(opt)}')"><span class="letter">${opt.charAt(0)}</span><span class="text">${opt.substring(3)}</span></div>`}).join('')}</div>
-        ${ans?`<div class="feedback ${ok?'ok':'err'}"><div class="fb-label">${ok?'✅ ¡Correcto!':'❌ Incorrecto'}</div>${!ok?`<div class="fb-correct">La respuesta correcta es: <span>${q.correctAnswer}</span></div>`:''}</div>`:''}</div>
+        ${ans?`<div class="feedback ${hasKey?(ok?'ok':'err'):'info'}"><div class="fb-label">${hasKey?(ok?'✅ ¡Correcto!':'❌ Incorrecto'):'ℹ️ Sin clave de respuesta'}</div>${hasKey&&!ok?`<div class="fb-correct">La respuesta correcta es: <span>${q.correctAnswer}</span></div>`:''}</div>`:''}</div>
       <div class="quiz-nav"><button class="btn btn-ghost" ${S.idx===0?'disabled style="opacity:0.3"':''} onclick="App.prevQuestion()">← Anterior</button>
         ${ans&&S.idx<tot-1?`<button class="btn ${m.btn}" onclick="App.nextQuestion()">Siguiente →</button>`:ans&&S.idx===tot-1?`<button class="btn ${m.btn} pulse-glow" onclick="App.finishQuiz()">Ver resultados 🏁</button>`:`<span class="hint">Selecciona una respuesta</span>`}</div>
     </div></div>`;
   }
 
   function rRes(){
-    const qa=S.errMode?S.errQ:S.shuf,tot=qa.length;let c=0,i=0;const er=[];
-    qa.forEach((q,idx)=>{if(S.ans[idx]===q.correctAnswer)c++;else{i++;er.push({question:q.question,yourAnswer:S.ans[idx],correctAnswer:q.correctAnswer,options:q.options})}});
-    const pct=Math.round(c/tot*100),m=mt(S.sub),emoji=pct>=90?'🏆':pct>=70?'🎉':pct>=50?'💪':pct>=30?'📚':'🔄',msg=pct>=90?'¡Excelente!':pct>=70?'¡Muy bien!':pct>=50?'¡Buen intento!':pct>=30?'Sigue practicando':'Necesitas repasar',col=pct>=70?'#10b981':pct>=40?'#f59e0b':'#f43f5e';
-    if(!S.errMode&&S.unit&&S.unit!=='all'){const s=st(S.sub,S.unit);s.c+=c;s.i+=i;s.t+=tot;er.forEach(e=>{if(!s.e.find(x=>x.question===e.question))s.e.push(e)});sv(S.sub,S.unit,s)}
+    const qa=S.errMode?S.errQ:S.shuf,tot=qa.length,scored=qa.filter(q=>!!q.correctAnswer),keyedTot=scored.length;let c=0,i=0;const er=[];
+    qa.forEach((q,idx)=>{const answer=S.ans[idx];if(q.correctAnswer){if(answer===q.correctAnswer)c++;else{i++;er.push({question:q.question,yourAnswer:answer,correctAnswer:q.correctAnswer,options:q.options})}}});
+    const pct=keyedTot?Math.round(c/keyedTot*100):0,m=mt(S.sub),emoji=keyedTot?(pct>=90?'🏆':pct>=70?'🎉':pct>=50?'💪':pct>=30?'📚':'🔄'):'ℹ️',msg=keyedTot?(pct>=90?'¡Excelente!':pct>=70?'¡Muy bien!':pct>=50?'¡Buen intento!':pct>=30?'Sigue practicando':'Necesitas repasar'):'No hay clave de respuesta disponible',col=keyedTot?(pct>=70?'#10b981':pct>=40?'#f59e0b':'#f43f5e'):'#9ca3af';
+    if(!S.errMode&&S.unit&&S.unit!=='all'){const s=st(S.sub,S.unit);s.c+=c;s.i+=i;s.t+=keyedTot;er.forEach(e=>{if(!s.e.find(x=>x.question===e.question))s.e.push(e)});sv(S.sub,S.unit,s)}
     el.innerHTML=`<div class="fade-in"><div class="container">
       <div class="glass result-center"><div class="big-icon">${emoji}</div><h1 class="gradient-text">${msg}</h1><div class="sub">${S.sub} · ${S.errMode?'Repaso de errores':(UL[S.unit]||S.unit)}</div>${ring(110,46,pct,col)}
-        <div class="result-stats"><div class="result-stat"><div class="val" style="color:#6ee7b7">${c}</div><div class="lbl">Correctas</div></div><div class="result-stat"><div class="val" style="color:#fda4af">${i}</div><div class="lbl">Incorrectas</div></div><div class="result-stat"><div class="val" style="color:#60a5fa">${tot}</div><div class="lbl">Total</div></div></div></div>
-      ${er.length>0?`<div class="errors-section"><div class="errors-title">❗ Errores (${er.length})</div>${er.map((e,i)=>`<div class="glass error-item slide-up" style="animation-delay:${i*0.03}s"><div class="q">${e.question}</div>${e.yourAnswer?`<div class="yours">Tu respuesta: ${e.yourAnswer}</div>`:''}<div class="correct">Correcta: ${e.correctAnswer}</div></div>`).join('')}</div>`:`<div class="glass perfect"><div class="icon">🌟</div><p>¡Todas las respuestas correctas!</p></div>`}
+        <div class="result-stats"><div class="result-stat"><div class="val" style="color:#6ee7b7">${c}</div><div class="lbl">Correctas</div></div><div class="result-stat"><div class="val" style="color:#fda4af">${i}</div><div class="lbl">Incorrectas</div></div><div class="result-stat"><div class="val" style="color:#60a5fa">${keyedTot||tot}</div><div class="lbl">Total</div></div></div></div>
+      ${keyedTot===0?`<div class="glass perfect"><div class="icon">ℹ️</div><p>No hay clave de respuesta disponible para estas preguntas.</p></div>`:er.length>0?`<div class="errors-section"><div class="errors-title">❗ Errores (${er.length})</div>${er.map((e,i)=>`<div class="glass error-item slide-up" style="animation-delay:${i*0.03}s"><div class="q">${e.question}</div>${e.yourAnswer?`<div class="yours">Tu respuesta: ${e.yourAnswer}</div>`:''}<div class="correct">Correcta: ${e.correctAnswer}</div></div>`).join('')}</div>`:`<div class="glass perfect"><div class="icon">🌟</div><p>¡Todas las respuestas correctas!</p></div>`}
       <div class="btn-row" style="justify-content:center"><button class="btn ${m.btn}" onclick="App.retryQuiz()">🔀 Reintentar</button>${er.length>0?`<button class="btn btn-danger" onclick="App.retryErrors()">❗ Repasar errores</button>`:''}<button class="btn btn-ghost" onclick="App.goSubject()">← Asignatura</button><button class="btn btn-ghost" onclick="App.goHome()">🏠 Inicio</button></div>
     </div></div>`;
   }
