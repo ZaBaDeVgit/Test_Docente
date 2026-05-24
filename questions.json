@@ -417,10 +417,16 @@
           "a. Presentaciones de diapositivas, diagramas de Gantt y programas específicos de planificación de proyectos.",
           "b. Bases de datos, diagramas de Gantt y programas específicos de planificación de proyectos.",
           "c. Procesadores de texto, diagramas de Gantt y programas específicos de planificación de proyectos.",
-          "d. Hojas de cálculo, diagramas de Gannt y programas específicos de planificación de proyectos. Programación didáctica de acciones formativas para el empleo. - TEST FINAL"
+          "d. Hojas de cálculo, diagramas de Gannt y programas específicos de planificación de proyectos."
         ],
-        "correctAnswer": "d. Hojas de cálculo, diagramas de Gannt y programas específicos de planificación de proyectos. Programación didáctica de acciones formativas para el empleo. - TEST FINAL"
-      },
+        "correctAnswer": "d. Hojas de cálculo, diagramas de Gannt y programas específicos de planificación de proyectos."
+      }
+    ]
+  },
+  {
+    "subject": "Test Final - Programación didáctica acciones formativas",
+    "unit": "Semestral",
+    "questions": [
       {
         "question": "En la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, encontramos que entre los principios del SNCFP está:",
         "options": [

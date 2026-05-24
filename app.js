@@ -5,7 +5,8 @@
     'Estructura de la Formación Profesional': { icon:'📚', cls:'events', btn:'btn-primary', fill:'blue' },
     'Certificados de Profesionalidad': { icon:'🎓', cls:'estructura', btn:'btn-emerald', fill:'emerald' },
     'Elaboración de la programación didáctica de una acción formativa para el empleo': { icon:'📝', cls:'pisos', btn:'btn-amber', fill:'amber' },
-    'Elaboración de la programación temporalizada de la acción formativa': { icon:'📅', cls:'empleabilidad', btn:'btn-violet', fill:'violet' }
+    'Elaboración de la programación temporalizada de la acción formativa': { icon:'📅', cls:'empleabilidad', btn:'btn-violet', fill:'violet' },
+    'Test Final - Programación didáctica acciones formativas': { icon:'🏁', cls:'events', btn:'btn-primary', fill:'blue' }
   };
   const UL = {'U1':'Unidad 1','U2':'Unidad 2','U3':'Unidad 3','U4':'Unidad 4','U5':'Unidad 5','U6':'Unidad 6','U7':'Unidad 7','U8':'Unidad 8','U9':'Unidad 9','Semestral':'Semestral'};
 
