@@ -11,7 +11,7 @@
           "c. Ley Orgánica 5/2002 de 19 de junio.",
           "d. Ley Orgánica 4/2004 de 16 de abril."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Ley Orgánica 5/2002 de 19 de junio."
       },
       {
         "question": "Es competencia del Gobierno el establecimiento y la coordinación de los procesos de:",
@@ -21,7 +21,7 @@
           "c. Interacción.",
           "d. Análisis."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Evaluación."
       },
       {
         "question": "El agente encargado de la actualización del Catálogo de Nacional de Cualificaciones es:",
@@ -41,7 +41,7 @@
           "c. 25 familias profesionales y 5 niveles.",
           "d. 26 familias profesionales y 5 niveles."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. 26 familias profesionales y 5 niveles."
       },
       {
         "question": "Los criterios de evaluación del módulo formativo constituyen:",
@@ -51,7 +51,7 @@
           "c. Expresión de los resultados esperados al finalizar el Módulo.",
           "d. Los contenidos formativos para la adquisición de la competencia."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Expresión de los resultados esperados al finalizar el Módulo."
       },
       {
         "question": "El código Alfanumérico de la familia profesional de Seguridad y Medio Ambiente es:",
@@ -71,7 +71,7 @@
           "c. Cursos de Especialización.",
           "d. Programas de Garantía Social."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Cursos de Especialización."
       },
       {
         "question": "Los programas de Cualificación Inicial van dirigidos a:",
@@ -81,7 +81,7 @@
           "c. No hayan obtenido el título de Educación Secundaria Obligatoria y habiendo superado los 16 años.",
           "d. No haber obtenido el título de Educación Secundaria Obligatoria y no hayan superado los 16 años."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. No hayan obtenido el título de Educación Secundaria Obligatoria y habiendo superado los 16 años."
       },
       {
         "question": "Una competencia profesional es:",
@@ -91,7 +91,7 @@
           "c. Conjunto de competencias profesionales con significación para el empleo.",
           "d. Aptitudes para el buen desempeño de una profesión."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Conjunto de conocimientos y capacidades que permiten el ejercicio de la actividad profesional."
       },
       {
         "question": "En los contratos para la formación y el aprendizaje, el tiempo de trabajo efectivo no podrá superar el ... durante el primer año.",
@@ -101,7 +101,7 @@
           "c. 70%.",
           "d. 65%."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. 65%."
       }
     ]
   },
@@ -117,7 +117,7 @@
           "c. Acción formativa.",
           "d. Formación."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Especialidad formativa."
       },
       {
         "question": "¿Qué colectivo no tiene prioridad en la formación de demanda en la resolución de 2012?",
@@ -127,7 +127,7 @@
           "c. Las personas de baja cualificación.",
           "d. Las personas mayores de 35 años."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Las personas mayores de 35 años."
       },
       {
         "question": "En la programación didáctica los objetivos de aprendizaje que aparecen, se extraen de:",
@@ -137,7 +137,7 @@
           "c. El certificado de profesionalidad.",
           "d. La cualificación profesional."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. La cualificación profesional."
       },
       {
         "question": "Los certificados de profesionalidad:",
@@ -147,7 +147,7 @@
           "c. Serán expedidos por el Ministerio de Formación y Empleo.",
           "d. Con carácter excepcional pueden tener menos unidades."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Tienen que tener los módulos dictados por el CNCP."
       },
       {
         "question": "¿Quién fija los requisitos y procedimientos para la evaluación y acreditación de las competencias?",
@@ -157,7 +157,7 @@
           "c. El SEPE.",
           "d. El Ministerio de educación y Formación."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. El Gobierno."
       },
       {
         "question": "Señala cuál de los siguientes no es un apartado de la estructura común de los certificados de profesionalidad:",
@@ -167,7 +167,7 @@
           "c. Formación del certificado de profesionalidad.",
           "d. Requisitos mínimos de espacios, instalaciones y equipamientos."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Perfil profesional de los formadores."
       },
       {
         "question": "El nivel de cualificación y el código alfanumérico del certificado de profesionalidad deben aparecer en:",
@@ -177,7 +177,7 @@
           "c. Los requisitos mínimos de espacios, instalaciones y equipamientos.",
           "d. Las prescripciones de los formadores."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. La identificación del certificado de profesionalidad."
       },
       {
         "question": "A veces se le denomina Formación Tradicional:",
@@ -187,7 +187,7 @@
           "c. Teleformación.",
           "d. Modalidad presencial."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Modalidad presencial."
       },
       {
         "question": "Ventaja de la formación presencial:",
@@ -197,7 +197,7 @@
           "c. Versatilidad metodológica.",
           "d. Desarrollo de habilidades de autoaprendizaje."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Versatilidad metodológica."
       },
       {
         "question": "Documento en el que aparecen recogidos todos los elementos intervinientes en el proceso de E-A, sus relaciones e implicaciones mutuas:",
@@ -207,7 +207,7 @@
           "c. Panel de Navegación.",
           "d. Hoja de ruta."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Guía didáctica."
       }
     ]
   },
@@ -223,7 +223,7 @@
           "c. Objetivos competenciales.",
           "d. Objetivos de la cualificación profesional."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Objetivos de aprendizaje."
       },
       {
         "question": "Tiene un carácter eminentemente operativo y funcional para el docente en el sistema de Formación Profesional:",
@@ -233,7 +233,7 @@
           "c. Programación formativa.",
           "d. Programa pedagógico."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Programación didáctica."
       },
       {
         "question": "Permiten a los individuos adaptarse a un entorno laboral cambiante:",
@@ -243,7 +243,7 @@
           "c. Competencias clave.",
           "d. Competencias actitudinales."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Competencias clave."
       },
       {
         "question": "Elemento de la programación en el que se hace una valoración general de la acción formativa:",
@@ -253,7 +253,7 @@
           "c. Reflexiones finales.",
           "d. Justificación."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Evaluación."
       },
       {
         "question": "La programación didáctica de acciones formativas debe ser viva y cambiante, es decir:",
@@ -263,7 +263,7 @@
           "c. Funcional.",
           "d. Proactiva."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Dinámica."
       },
       {
         "question": "Determina el criterio de desempeño aceptable y permite evaluarlo:",
@@ -273,7 +273,7 @@
           "c. El grado.",
           "d. Las condiciones o exigencias."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. El grado."
       },
       {
         "question": "Los objetivos:",
@@ -283,7 +283,7 @@
           "c. Deben expresar diferentes niveles de concreción.",
           "d. Deben formularse por medio de frases subordinadas."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Deben expresar diferentes niveles de concreción."
       },
       {
         "question": "Se denominan contenidos de profesionalidad:",
@@ -293,7 +293,7 @@
           "c. Conceptos, principios, leyes, teorías, hechos, etc.",
           "d. Procedimientos."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Actitudes, normas o valores."
       },
       {
         "question": "Su finalidad es introducir al alumnado en el objeto de estudio que nos ocupe:",
@@ -303,7 +303,7 @@
           "c. Actividades de desarrollo.",
           "d. Actividades de refuerzo o recuperación."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Actividades de inicio y motivación."
       },
       {
         "question": "Dinámica que consiste en proporcionarle al alumnado una información real con la descripción de una situación determinada.",
@@ -313,7 +313,7 @@
           "c. Phillips 66.",
           "d. Estudio de casos."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Estudio de casos."
       }
     ]
   },
@@ -329,7 +329,7 @@
           "c. General y cerrada al debate.",
           "d. Extensa, cerrada al debate y meticulosa."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Meticulosa y adeacuada a las características del auditorio y del currículo."
       },
       {
         "question": "La temporalización diaria hace referencia a:",
@@ -339,7 +339,7 @@
           "c. El diseño de la práctica formativa y la concreción de la programación didáctica a la realidad del aula.",
           "d. La concreción de la programación didáctica a la realidad del aula y las sesiones de coordinación con el equipo docente."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. La concreción de la programación didáctica a la realidad del aula y las sesiones de formación con el alumnado."
       },
       {
         "question": "Principio por el que se incluyen contenidos que conciernen a la realidad:",
@@ -349,7 +349,7 @@
           "c. Adecuación.",
           "d. Globalización."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Significación."
       },
       {
         "question": "En una ficha tipo para la temporalización de una sesión formativa encontramos:",
@@ -359,7 +359,7 @@
           "c. Los objetivos, contenidos y metodología diaria de la sesión.",
           "d. Los objetivos, contenidos y actividades diarias de la sesión."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Los objetivos, contenidos y actividades diarias de la sesión."
       },
       {
         "question": "La temporalización diaria de la acción formativa:",
@@ -369,7 +369,7 @@
           "c. Supone el nivel de concreción curricular más genérico y permite tener planificado y preparado lo que queda por hacer.",
           "d. Supone el nivel de concreción curricular más preciso y permite tener control sobre lo que queda por hacer."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Supone el nivel de concreción curricular más preciso y permite tener control sobre lo que ya hemos hecho y preparado lo que queda por hacer."
       },
       {
         "question": "Factores a tener en cuenta para realizar la temporalización son:",
@@ -379,7 +379,7 @@
           "c. El nº de horas, el nº de contenidos y la importancia de los objetivos.",
           "d. El nº de horas, el nº de contenidos y los honorarios del docente."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Los tiempos para imprevistos, el nº de horas y la importancia de cada contenido."
       },
       {
         "question": "En una sesión tipo el desarrollo debe durar:",
@@ -389,7 +389,7 @@
           "c. Entre 20 y 30 minutos.",
           "d. Entre 35 y 45 minutos."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Entre 40 y 50 minutos."
       },
       {
         "question": "En la estructura de una sesión formativa, el orden en el desarrollo de la misma es:",
@@ -399,7 +399,7 @@
           "c. Presentación, distensión (en la primera sesión), captación de la atención, planteamiento de los objetivos, impartición de los contenidos, realización de actividades, integración de los contenidos y, en la última sesión del módulo, agradecimientos y cierre.",
           "d. Presentación, distensión (en la última sesión), captación de la atención, planteamiento de los objetivos, impartición de los contenidos, realización de actividades, integración de los contenidos y, en la primera sesión del módulo, agradecimientos y cierre."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Presentación, distensión (en la primera sesión), captación de la atención, planteamiento de los objetivos, impartición de los contenidos, realización de actividades, integración de los contenidos y, en la última sesión del módulo, agradecimientos y cierre."
       },
       {
         "question": "La información con la identificación de los tutores, tipos de tutorías (virtuales y, en su caso, presenciales) y procedimientos de contacto aparece en el apartado de la Guía del alumno denominado:",
@@ -409,7 +409,7 @@
           "c. Servicio de atención al usuario.",
           "d. Sistema de atención al usuario."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Sistema de tutorías."
       },
       {
         "question": "Las herramientas ofimáticas más habituales para la elaboración de las temporalizaciones de acciones formativas son:",
@@ -419,7 +419,7 @@
           "c. Procesadores de texto, diagramas de Gantt y programas específicos de planificación de proyectos.",
           "d. Hojas de cálculo, diagramas de Gannt y programas específicos de planificación de proyectos. Programación didáctica de acciones formativas para el empleo. - TEST FINAL"
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Hojas de cálculo, diagramas de Gannt y programas específicos de planificación de proyectos. Programación didáctica de acciones formativas para el empleo. - TEST FINAL"
       },
       {
         "question": "En la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, encontramos que entre los principios del SNCFP está:",
@@ -429,7 +429,7 @@
           "c. El acceso, en condiciones de igualdad de todos los ciudadanos, a las diferentes modalidades de la FP.",
           "d. Promover una oferta formativa de calidad, actualizada y adecuada a los distintos destinatarios."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. El acceso, en condiciones de igualdad de todos los ciudadanos, a las diferentes modalidades de la FP."
       },
       {
         "question": "El subsistema de Formación Profesional para el Empleo (FPE):",
@@ -439,7 +439,7 @@
           "c. Comparte con el subsistema de FPR las mismas iniciativas de formación.",
           "d. Está destinado exclusivamente a trabajadores desempleados."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Comparte con el subsistema de FPR la organización modular y el CNCP como referencia en el diseño de su oferta formativa."
       },
       {
         "question": "La normativa que regula el subsector de la FPE:",
@@ -449,7 +449,7 @@
           "c. Es interpretable, cada entidad impartidora puede adaptarla a su funcionamiento.",
           "d. Se regula mediante la publicación de leyes, leyes orgánicas, reales decretos y reales decreto-ley y se desarrolla a través de órdenes."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Se regula mediante la publicación de leyes, leyes orgánicas, reales decretos y reales decreto-ley y se desarrolla a través de órdenes."
       },
       {
         "question": "En FPE, las iniciativas de formación de oferta y formación de demanda:",
@@ -459,7 +459,7 @@
           "c. Se pueden impartir en ambas modalidades, presencial y en línea (online).",
           "d. La formación de demanda se puede impartir en ambas modalidades, presencial y en línea (online), mientras que la formación de oferta solo se puede impartir en la modalidad presencial."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Se pueden impartir en ambas modalidades, presencial y en línea (online)."
       },
       {
         "question": "El INCUAL es el organismo del SNCFP encargado de:",
@@ -469,7 +469,7 @@
           "c. El desarrollo de la integración de las cualificaciones profesionales.",
           "d. Definir, elaborar y mantener actualizado el CGFP y el correspondiente CMFP."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Definir, elaborar y mantener actualizado el CNCP y el correspondiente CMFP."
       },
       {
         "question": "Las Familias profesionales en las que se estructura el CNCP:",
@@ -479,7 +479,7 @@
           "c. Cuando quedan obsoletas, se descatalogan, con lo que su número oscila entre 24 y 28 familias profesionales.",
           "d. Varían exclusivamente por la demanda del mercado laboral."
         ],
-        "correctAnswer": null
+        "correctAnswer": "a. Son estables en el tiempo."
       },
       {
         "question": "Los certificados de profesionalidad son el instrumento de acreditación oficial:",
@@ -489,7 +489,7 @@
           "c. De las cualificaciones profesionales del CNCP en el ámbito laboral.",
           "d. De las cualificaciones profesionales del CMFP en el ámbito laboral."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. De las cualificaciones profesionales del CNCP en el ámbito laboral."
       },
       {
         "question": "Entre las características de la programación didáctica encontramos que estás deben ser:",
@@ -499,7 +499,7 @@
           "c. Contextualizadas, dinámicas y rígidas.",
           "d. Contextualizadas, útiles y dinámicas."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Contextualizadas, útiles y dinámicas."
       },
       {
         "question": "En la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, encontramos que entre los fines del SNCFP está:",
@@ -509,7 +509,7 @@
           "c. Evaluar y acreditar oficialmente la cualificación profesional cualquiera que hubiera sido la forma de su adquisición.",
           "d. La promoción del desarrollo económico y la adecuación a las diferentes necesidades territoriales del sistema productivo."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Evaluar y acreditar oficialmente la cualificación profesional cualquiera que hubiera sido la forma de su adquisición."
       },
       {
         "question": "Las especialidades formativas en las que se estructuran las Familias profesionales:",
@@ -519,7 +519,7 @@
           "c. Cuando quedan obsoletas, se descatalogan, con lo que su número oscila.",
           "d. Cambian a lo largo del tiempo, pueden eliminarse o sustituirse por otras según las demandas de empresas y trabajadores, además cuando quedan obsoletas se descatalogan."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Cambian a lo largo del tiempo, pueden eliminarse o sustituirse por otras según las demandas de empresas y trabajadores, además cuando quedan obsoletas se descatalogan."
       },
       {
         "question": "En los últimos años, desde la publicación del RD 395/2007 por el que se regula el subsistema de FPE:",
@@ -529,7 +529,7 @@
           "c. Se ha publicado la normativa que lo desarrolla, en especial, las modificaciones sobre el SNCFP.",
           "d. Se divide la FP en los subsistemas de FPE y FPO."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Se ha publicado la normativa que lo desarrolla y, en especial, la concerniente a los Certificados de profesionalidad."
       },
       {
         "question": "Señala la opción correcta, respecto a la FP Reglada:",
@@ -549,7 +549,7 @@
           "c. Hace referencia a desarrollar una identidad profesional motivadora de futuros aprendizajes y adaptaciones a los procesos productivos y al cambio social.",
           "d. No tiene nada que ver con la FPR, pero sí es fundamental en FPE."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Hace referencia a desarrollar una identidad profesional motivadora de futuros aprendizajes y adaptaciones a los procesos productivos y al cambio social."
       },
       {
         "question": "La temporalización de una acción formativa debe:",
@@ -559,7 +559,7 @@
           "c. Adecuada a las características del auditorio, elaborada por contenidos y cerrada al debate.",
           "d. Meticulosa, adecuada a las características del auditorio y del currículo, de la materia a impartir."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Meticulosa, adecuada a las características del auditorio y del currículo, de la materia a impartir."
       },
       {
         "question": "La ley Orgánica 8/2013 para la Mejora de la Calidad Educativa, LOMCE:",
@@ -569,7 +569,7 @@
           "c. Modifica la LOE de manera limitada, a través de un artículo único.",
           "d. Complementa el RD 395/2007, en cuanto a la realización del Módulo de prácticas profesionales no laborales."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. Modifica la LOE de manera limitada, a través de un artículo único."
       },
       {
         "question": "La estructura modular de la FP permite:",
@@ -579,7 +579,7 @@
           "c. Asociar los módulos formativos cursados en la especialidad a sus Unidades de Competencia de referencia, en el caso de los certificados de profesionalidad.",
           "d. Establecer equivalencias de aprendizaje entre la FPE y la FPR, estructurar los contenidos formativos y asociar los módulos formativos cursados a sus UC de referencia."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Establecer equivalencias de aprendizaje entre la FPE y la FPR, estructurar los contenidos formativos y asociar los módulos formativos cursados a sus UC de referencia."
       },
       {
         "question": "La selección y organización de los contenidos requiere, entre otros, de los siguientes principios:",
@@ -589,7 +589,7 @@
           "c. Transferibilidad, porque da prioridad a los contenidos más fácilmente transferibles a otros contextos, y representatividad, porque superan una visión parcial de la realidad.",
           "d. Validez, pues sirven para alcanzar los objetivos previstos, y globalización, porque da prioridad a los contenidos más fácilmente transferibles a otros contextos."
         ],
-        "correctAnswer": "a. Validez, pues sirven para alcanzar los objetivos previstos, y adecuación, por su adaptación a la"
+        "correctAnswer": "a. Validez, pues sirven para alcanzar los objetivos previstos, y adecuación, por su adaptación a la competencia cognitiva del alumnado y la modalidad de formación elegida."
       },
       {
         "question": "En el contexto de la programación de acciones formativas de FPE, se considera actividad de aprendizaje:",
@@ -599,7 +599,7 @@
           "c. El elemento curricular a través del que se desarrollan las capacidades expresadas en los objetivos.",
           "d. El complemento a la explicación teórica dentro del proceso de enseñanza-aprendizaje en la que el alumnado realizará de manera activa una producción del conocimiento adquirido, según las pautas indicadas por el tutor-formador."
         ],
-        "correctAnswer": null
+        "correctAnswer": "c. El elemento curricular a través del que se desarrollan las capacidades expresadas en los objetivos."
       },
       {
         "question": "En FPE, la Programación Didáctica tiene:",
@@ -609,7 +609,7 @@
           "c. Un carácter estático y abierto y está sujeta a una revisión permanente que permite realizar los ajustes necesarios para cada tiempo y contexto determinado.",
           "d. Un carácter dinámico y abierto y está sujeta a parámetros fijos e inamovibles en cuanto al tiempo y el contexto."
         ],
-        "correctAnswer": null
+        "correctAnswer": "b. Un carácter dinámico y abierto y está sujeta a una revisión permanente que permite realizar los ajustes necesarios para cada tiempo y contexto determinado."
       },
       {
         "question": "La temporalización diaria de los contenidos, materiales y recursos a utilizar en el aula o con los participantes en la formación:",
@@ -619,7 +619,7 @@
           "c. Favorece la implantación flexible y espontanea de la planificación de la formación y la mejora de sus resultados.",
           "d. Favorece la implantación óptima de la programación didáctica de la acción formativa y la mejora de sus resultados."
         ],
-        "correctAnswer": null
+        "correctAnswer": "d. Favorece la implantación óptima de la programación didáctica de la acción formativa y la mejora de sus resultados."
       }
     ]
   }
